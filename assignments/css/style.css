@@ -30,6 +30,7 @@
 
 
 	.circle {
+		width: 50%;
 		border-radius: 50%;
 		border: 5px solid #9abcf8;
 	}
