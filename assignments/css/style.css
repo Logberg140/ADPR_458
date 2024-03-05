@@ -1,4 +1,7 @@
-
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
 	body {
 		margin: 0 10%;
 		background-color: #faf2e4;
@@ -30,4 +33,9 @@
 
 	img{
 		width: 100%;
+	}
+
+	.circle {
+		border-radius: 50%;
+		border: 5px solid #9abcf8;
 	}
