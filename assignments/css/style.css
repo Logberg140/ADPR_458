@@ -3,7 +3,7 @@
 	font-family: sans-serif;
 }
 	body {
-		margin: 0 10%;
+		margin: 0;
 		background-color: #faf2e4;
 		font-family: sans-serif;
 		background-image: url("../Images/triangles_pattern.png");
@@ -41,9 +41,20 @@
 		display: grid;
 		gap: 1.5rem;
 		grid-template-columns: repeat(12, 1fr);
+		margin: 0 auto;
 	}
 	.container > * {
 		grid-column: span 12;
+	}
+
+	/***** Desktop Layout***/
+	@media screen and (min-width: 40rem) {
+		.col-span-8 {
+			grid-column: span 8;
+		}
+		.col-span-4 {
+			grid-column: span 4;
+		}
 	}
 
 
