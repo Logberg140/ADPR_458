@@ -9,9 +9,6 @@
 		background-image: url("../Images/triangles_pattern.png");
 	}
 
-	.container {
-		background-color: white;
-	}
 
 	header{
 		background-color: #9abcf8;
@@ -31,11 +28,22 @@
 		font-size: 1rem;
 	}
 
-	img{
-		width: 100%;
-	}
 
 	.circle {
 		border-radius: 50%;
 		border: 5px solid #9abcf8;
 	}
+
+	/***** Layout *****/
+	
+	.container {
+		background-color: white;
+		display: grid;
+		gap: 1.5rem;
+		grid-template-columns: repeat(12, 1fr);
+	}
+
+
+
+
+
