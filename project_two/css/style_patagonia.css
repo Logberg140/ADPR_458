@@ -8,6 +8,14 @@
 		font-family: inter;
 	}
 
+	.logo {
+		max-width: 10%;
+		justify-content: center;
+		align-self: stretch;
+    padding-left: .8rem;
+    padding-right: .8rem;
+	
+	}
 
 	header{
 		background-color: #9abcf8;
@@ -47,6 +55,51 @@
 		text-decoration: underline;
 	}
 
+	.container_text {
+		position: relative;
+		text-align: center;
+		color: white;
+	  }
+
+	  /* Centered text */
+.centered_new_head {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFF;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .centered_new_body {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFF;
+	text-align: center;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+  }
+
+  .centered_new_box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFF;
+	text-align: center;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	
+  }
 	/***** Layout *****/
 	
 	.container {
@@ -61,6 +114,14 @@
 		grid-column: span 12;
 	}
 
+	.boxes {
+		border-radius: 11px;
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+		width: 306px;
+		height: 304px;
+	}
+
+
 
 	/***** Navigation Using Flexbox *****/
 
@@ -68,7 +129,7 @@
 		background-color: white;
 		padding: 0 1rem;
 		display: flex;
-		justify-content: center;
+		justify-content: left;
 		position: sticky;
 		top: 0;
 	}
@@ -81,6 +142,7 @@
 	}
 	nav li {
 		margin: 0 0.5rem;
+		justify-content: left;
 	}
 	nav a:link, nav a:visited {
 		color: black;
@@ -93,6 +155,10 @@
 	nav a:hover {
 		color: gray;
 
+	}
+
+	.navigation-primary__logo{
+		justify-content: center;
 	}
 
 	/***** Components *****/
@@ -149,9 +215,7 @@
 			justify-content: center;
 			flex-flow: row wrap;
 		}
-		.card {
-			flex-basis: 27.5%;
-		}
+	
 	}
 
 
