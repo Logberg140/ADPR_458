@@ -15,8 +15,14 @@
 		align-self: stretch;
     padding-left: .8rem;
     padding-right: .8rem;
-	
 	}
+
+	.center {
+		display: block;
+		margin-left: 15%;
+		margin-right: auto;
+		width: 50%;
+	  }
 
 	header{
 		background-color: #9abcf8;
@@ -29,7 +35,7 @@
 	}
 
 	h2{
-		font-size: 1.5rem;
+		font-size: 64px;
 	}
 
 	h3{
@@ -47,13 +53,13 @@
 	}
 
 	a:link, a:visited {
-		color: #9abcf8;
+		color: white;
 		text-decoration: none;
 	}
 
 	a:hover {
-		color: #063689;
-		text-decoration: underline;
+		color: white;
+		text-decoration: none;
 	}
 
 	.container_text {
@@ -250,7 +256,7 @@ line-height: normal;
 		text-align: center;
 		margin: 1rem;
 		padding-bottom: 2rem;
-		box-shadow: 0 .125rem .5rem rgba(0,0,0, .15);
+		
 	}
 
 	.card-title {
@@ -263,7 +269,18 @@ line-height: normal;
 		padding: 0 2rem 0.5rem;
 	}
 
-
+	.button3:link, .button3:visited {
+		color:white;
+		background-color: black;
+		padding: 1rem 1.75rem;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 2rem;
+		box-shadow: 0 .125rem .5rem rgba(0,0,0, .15);
+		display: inline-block;
+		margin: 0 .25rem .25rem 0;
+		transition: background-color 0.5s ease;
+	}
 
 
 
@@ -279,7 +296,7 @@ line-height: normal;
 		.work-section {
 			display: flex;
 			justify-content: center;
-			flex-flow: row wrap;
+			flex-flow: row;
 		}
 	
 	}
